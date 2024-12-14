@@ -1,73 +1,66 @@
-# Jogo do Número Secreto 🎯✨🎮
+Jogo do Número Secreto 🎲🔢
 
-Este é um projeto desenvolvido como parte da [Formação Iniciante em Programação da Alura](https://www.alura.com.br/), um jogo simples e interativo onde o usuário deve adivinhar um número secreto gerado aleatoriamente. O site foi implementado utilizando HTML, CSS e JavaScript. 🎉🕹️🔢
+Este é um jogo simples e divertido em que o jogador precisa adivinhar um número secreto gerado aleatoriamente. O projeto foi desenvolvido como parte da Formação Iniciante em Programação pela Alura. O site está hospedado na Vercel, e você pode acessá-lo diretamente clicando aqui.
 
-## Visite o Site 🌐📲🚀
+Demonstração 🚀
 
-O site está hospedado na plataforma Vercel e pode ser acessado pelo seguinte link:
+Veja o jogo em ação clicando no link a seguir: Jogo do Número Secreto.
 
-[https://jogo-numero-secreto-eight-lac.vercel.app/](https://jogo-numero-secreto-eight-lac.vercel.app/)
+Como Jogar 🎮
 
-## Funcionalidades 🎈🧩🎯
+Escolha um número entre 1 e 10.
 
-- Geração aleatória de um número secreto entre 1 e 10.
-- Sistema de verificação do chute do usuário, informando se o número é maior ou menor que o número secreto.
-- Contador de tentativas, exibindo a quantidade de tentativas usadas para adivinhar o número.
-- Possibilidade de reiniciar o jogo após a conclusão.
+Digite o número no campo indicado.
 
-## Tecnologias Utilizadas 💻✨🛠️
+Clique em "Chutar" para verificar se acertou.
 
-- **HTML**: Estrutura do site.
-- **CSS**: Estilização responsiva com foco na experiência do usuário.
-- **JavaScript**: Lógica do jogo e manipulação do DOM para interatividade.
+Caso erre, o jogo dirá se o número secreto é maior ou menor que o seu chute.
 
-## Estrutura do Projeto 📂🗂️🛠️
+Continue até acertar! 🎉
 
-```
-jerbss-jogo-numero-secreto
+Após acertar, você pode iniciar um novo jogo clicando em "Novo jogo".
+
+Estrutura do Projeto 📂
+
 ├── index.html
 ├── img
 │   ├── ia.png
 │   ├── bg.png
-│   ├── code.png
-│   └── Ruido.png
+│   ├── Ruido.png
+│   └── code.png
 ├── style.css
 └── app.js
-```
 
-- **index.html**: Arquivo principal contendo a estrutura do site.
-- **style.css**: Arquivo de estilização do site.
-- **app.js**: Arquivo com toda a lógica do jogo.
-- **img/**: Pasta contendo as imagens utilizadas no site.
+Tecnologias Utilizadas 🛠️
 
-## Como Rodar Localmente 🖥️🛠️📖
+HTML5: Estrutura do jogo.
 
-1. Clone o repositório: 🚀🔧
+CSS3: Estilo e layout responsivo.
 
-   ```bash
-   git clone https://github.com/jerbss/jerbss-jogo-numero-secreto.git
-   ```
+JavaScript: Lógica do jogo e interatividade.
 
-2. Navegue até a pasta do projeto: 📂🔍
+Google Fonts: Tipografia personalizada.
 
-   ```bash
-   cd jerbss-jogo-numero-secreto
-   ```
+ResponsiveVoice.js: Biblioteca para narração de textos (configurada, mas não utilizada no jogo).
 
-3. Abra o arquivo `index.html` em seu navegador preferido. 🌐📤
+Instalação e Execução Local 💻
 
-## Demonstração 🎥🖼️🎲
+Se você deseja executar o projeto localmente, siga estas etapas:
 
-### Interface Inicial 🌅🎨🕹️
+Clone este repositório:
 
-O jogo exibe uma interface simples e amigável, com campos para o chute do usuário e botões para interagir com o jogo. 🎯
+git clone https://github.com/jerbss/jerbss-jogo-numero-secreto.git
 
-### Funcionalidade 🧠🔢🎮
+Navegue até o diretório do projeto:
 
-- **Mensagem Inicial**: Exibe instruções para o jogador escolher um número entre 1 e 10.
-- **Resposta do Sistema**: Indica se o número secreto é maior ou menor que o chute do jogador.
-- **Mensagem de Sucesso**: Informa o número de tentativas após o jogador acertar o número secreto. 🎉✔️💬
+cd jerbss-jogo-numero-secreto
 
-## Contato 📧📞💡
+Abra o arquivo index.html em qualquer navegador.
 
-Projeto criado por [Jerbesson Silva da Costa](https://github.com/jerbss). Para mais informações ou feedback, sinta-se à vontade para entrar em contato via GitHub. 🤝📬😊
+Contribuição 🤝
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests no repositório oficial no GitHub: jerbss-jogo-numero-secreto.
+
+Autor 👨‍💻
+
+Desenvolvido por Jerbesson Silva da Costa, como parte do aprendizado inicial em programação.
