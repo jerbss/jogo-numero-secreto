@@ -1,66 +1,46 @@
-Jogo do Número Secreto 🎲🔢
+# Jogo do Número Secreto 🎲
 
-Este é um jogo simples e divertido em que o jogador precisa adivinhar um número secreto gerado aleatoriamente. O projeto foi desenvolvido como parte da Formação Iniciante em Programação pela Alura. O site está hospedado na Vercel, e você pode acessá-lo diretamente clicando aqui.
+Bem-vindo ao repositório do **Jogo do Número Secreto**!
 
-Demonstração 🚀
+Este é um projeto desenvolvido durante a formação **Iniciante em Programação** da Alura. O objetivo do jogo é simples: adivinhar o número secreto sorteado pelo programa, com dicas que ajudam a encontrar a resposta correta.
 
-Veja o jogo em ação clicando no link a seguir: Jogo do Número Secreto.
+## 🚀 Funcionalidades
 
-Como Jogar 🎮
+- Interface amigável e intuitiva.
+- Geração de números aleatórios sem repetições.
+- Contador de tentativas para desafiar o jogador.
+- Feedback imediato sobre o chute: indica se o número secreto é maior ou menor.
+- Opção de reiniciar o jogo após acertar o número.
 
-Escolha um número entre 1 e 10.
+## 🛠️ Tecnologias Utilizadas
 
-Digite o número no campo indicado.
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
-Clique em "Chutar" para verificar se acertou.
+## 🌐 Deploy
 
-Caso erre, o jogo dirá se o número secreto é maior ou menor que o seu chute.
+O site está hospedado na plataforma **Vercel** e pode ser acessado através do link abaixo:  
+👉 [ACESSAR JOGO](https://jogo-numero-secreto-eight-lac.vercel.app/)
 
-Continue até acertar! 🎉
+## 🎮 Como Jogar
 
-Após acertar, você pode iniciar um novo jogo clicando em "Novo jogo".
+1. Escolha um número entre 1 e 10 no campo de entrada.
+2. Clique em **"Chutar"** para enviar sua tentativa.
+3. O jogo indicará se o número secreto é **maior** ou **menor** que o seu chute.
+4. Continue tentando até acertar o número secreto.
+5. Após acertar, clique em **"Novo jogo"** para reiniciar.
 
-Estrutura do Projeto 📂
+## 🤝 Contribuições
 
-├── index.html
-├── img
-│   ├── ia.png
-│   ├── bg.png
-│   ├── Ruido.png
-│   └── code.png
-├── style.css
-└── app.js
+Contribuições são bem-vindas!
 
-Tecnologias Utilizadas 🛠️
+Caso queira sugerir melhorias ou relatar problemas, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
 
-HTML5: Estrutura do jogo.
+## 📜 Licença
 
-CSS3: Estilo e layout responsivo.
+Este projeto é de uso livre e está disponível sob a licença **MIT**.
 
-JavaScript: Lógica do jogo e interatividade.
+---
 
-Google Fonts: Tipografia personalizada.
-
-ResponsiveVoice.js: Biblioteca para narração de textos (configurada, mas não utilizada no jogo).
-
-Instalação e Execução Local 💻
-
-Se você deseja executar o projeto localmente, siga estas etapas:
-
-Clone este repositório:
-
-git clone https://github.com/jerbss/jerbss-jogo-numero-secreto.git
-
-Navegue até o diretório do projeto:
-
-cd jerbss-jogo-numero-secreto
-
-Abra o arquivo index.html em qualquer navegador.
-
-Contribuição 🤝
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests no repositório oficial no GitHub: jerbss-jogo-numero-secreto.
-
-Autor 👨‍💻
-
-Desenvolvido por Jerbesson Silva da Costa, como parte do aprendizado inicial em programação.
+**Desenvolvido por jerbss durante a formação da Alura.** 😊
